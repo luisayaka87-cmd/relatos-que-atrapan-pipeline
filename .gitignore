@@ -1,0 +1,29 @@
+# ── Secretos: JAMÁS versionar ──────────────────────────────
+.env
+*.env
+credentials*
+*secret*
+*.pem
+*.key
+id_rsa*
+
+# ── Media pesada: no se versiona ───────────────────────────
+*.mp4
+*.mov
+*.mp3
+*.wav
+*.webp
+*.png
+*.jpg
+clips/
+segmentos/
+*-unido.mp4
+*-final.mp4
+
+# ── Artefactos de trabajo ──────────────────────────────────
+*.log
+__pycache__/
+verificacion-*.json
+timings.json
+segmentos.json
+karaoke.ass
