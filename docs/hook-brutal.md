@@ -4,7 +4,7 @@
 
 Este estándar vale desde el Capítulo 3 de «El carrito de doña Graciela» en adelante. No aplica retroactivamente a capítulos ya entregados.
 
-## Las cuatro exigencias
+## Las cinco exigencias
 
 ### (a) La primera línea es la más fuerte del capítulo
 - La línea 1 es la frase de mayor conflicto, injusticia o choque de todo el capítulo.
@@ -25,6 +25,12 @@ Este estándar vale desde el Capítulo 3 de «El carrito de doña Graciela» en 
 - Antes de dar un capítulo por terminado, se revisan los primeros 5 segundos del video final.
 - Pregunta de control: **¿generan la pregunta «¿y qué pasó?»**
 - Si la respuesta es no, el hook se reescribe y esa parte se regenera. No se entrega un capítulo con hook débil.
+
+### (e) La línea 1 jamás sale por respaldo
+- La línea 1 **nunca** va con visual muda + audio de respaldo (Fish), aunque la transcripción sea exacta. Una transcripción perfecta certifica el audio, no el hook: si no se ve a la protagonista **hablando de frente, con la actuación del paquete**, la apertura está mal y el capítulo no se entrega. *(Regla agregada el 2026-11-02 y guardada también como skill local `hook_dialogado_brutal`, tras la corrección del Cap. 4 de Graciela: la entrega original abría con una visual muda de perfil y el usuario la rechazó.)*
+- Antes de entregar se revisan **fotogramas propios de la apertura** (a 1 s, a la mitad de la línea 1 y al final de la línea 1): la cara debe dominar el cuadro, la boca debe estar en movimiento entre fotogramas, la emoción debe ser la del paquete, y ni el headline, ni el texto de capítulo, ni la marca deben tapar la actuación.
+- Antes de gastar generaciones nuevas en la línea 1, se hace **inventario de las tomas descartadas** de esa línea. Un clip dialogado descartado **solo por formato horizontal** se recupera con recorte vertical centrado en la protagonista (ancho de recorte = alto × 9/16), escalado a 720×1280 y **re-verificado** (dimensiones y transcripción completa sobre el archivo convertido). El cambio se registra en el manifiesto, se generan timings nuevos para la línea y se **rearma el capítulo completo**.
+- Caso probado: Cap. 4 de Graciela, corregido el 2026-11-02 con esta ruta — el clip dialogado descartado por horizontal en la corrida 2 resultó tener la línea exacta y la actuación brutal, y su recorte vertical centrado se convirtió en la apertura del capítulo rearmado y verificado.
 
 ## Ejemplos del formato que cumple
 
