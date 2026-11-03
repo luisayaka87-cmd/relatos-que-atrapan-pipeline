@@ -9,6 +9,7 @@ Pipeline completo de producción de las sagas verticales dramatizadas de **«Rel
 - **Cámara fija en cada clip** (`LOCKED STATIC CAMERA, NO zoom, NO push-in, NO pull-out`).
 - **Estilo visual:** ultra realista, fotorrealista cinematográfico, como una película real. Nada de ilustración pintada.
 - **Hook con una persona hablando en pantalla** — nunca objetos sin caras — y bajo el [estándar de hook brutal](docs/hook-brutal.md): los primeros 5 segundos enganchan con violencia emocional.
+- **RPM y retención como sistema** ([docs/rpm-retencion.md](docs/rpm-retencion.md)): audiencia de EE. UU. en español mexicano, capítulos de 7–9 minutos sin relleno, ocho ganchos de relevo por capítulo, cifra concreta, promesa del hook pagada y checklist RPM antes de entregar.
 - **Verificación obligatoria por transcripción:** ningún clip se acepta sin transcribirlo y confirmar que dice la línea completa y exacta del guion; ningún capítulo se entrega sin transcribir el video final completo y revisar las 48 líneas en orden.
 - **Compuertas de calidad automáticas** (`scripts/quality-gates/`): el capítulo no se marca terminado hasta que todas pasan.
 
@@ -27,6 +28,7 @@ Pipeline completo de producción de las sagas verticales dramatizadas de **«Rel
 README.md                  ← este archivo: el método
 docs/formato.md            ← especificación técnica exacta del formato vigente
 docs/hook-brutal.md        ← estándar de los primeros 5 segundos
+docs/rpm-retencion.md      ← estrategia propia de RPM y retención (audiencia, duración, re-ganchos, bancos)
 scripts/timings.py         ← tiempos por palabra de los clips aceptados
 scripts/armado.py          ← segmentos, karaoke ASS, unión y quemado
 scripts/verificar_linea.py ← verificación por transcripción clip a clip
